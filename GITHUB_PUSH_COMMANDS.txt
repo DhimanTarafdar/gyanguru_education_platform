@@ -1,0 +1,15 @@
+# GitHub Push Commands
+# Replace YOUR_USERNAME with your actual GitHub username
+
+# 1. Add GitHub repository as remote origin
+git remote add origin https://github.com/YOUR_USERNAME/gyanguru-education-platform.git
+
+# 2. Set main branch (modern Git standard)
+git branch -M main
+
+# 3. Push to GitHub
+git push -u origin main
+
+# If you get authentication error, use personal access token:
+# Go to GitHub → Settings → Developer settings → Personal access tokens → Generate new token
+# Use the token as password when prompted
